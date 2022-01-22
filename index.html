@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="animations.css">
+    <!-- CSS Ends -->
+
+    <!-- Fonts Start -->
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Josefin+Sans:wght@600&display=swap"
+        rel="stylesheet">
+    <!-- Fonts Ends -->
+    <title>My Travel Website</title>
+</head>
+
+<body>
+
+    <!-- Navigation Bar Starts Here -->
+    <nav class="navbar">
+        <img src="images/logo.png" alt="" class="logo">
+        <ul class="nav-links">
+            <li class="nav"><a href="#"></a>Home</li>
+            <li class="nav"><a href="#"></a>Tours</li>
+            <li class="nav"><a href="#"></a>Explore</li>
+            <li class="nav"><a href="#"></a>About</li>
+            <li class="btn"><a href="#"></a>Contact us</li>
+        </ul>
+        <img src="m.png" alt="" class="menu_btn">
+    </nav>
+    <!-- Navigation Bar Ends Here      -->
+
+
+    <!-- Header Section starts here  -->
+    <header>
+        <div class="header_content">
+            <h2>Explore the Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </header>
+    <!-- Header Section Ends Here -->
+
+
+    <!-- Events Section Starts -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img src="images/event1.jpg" alt="" class="event1">
+                <h3>Everest Climbing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis odit deserunt beatae fugiat
+                    dolor porro quaerat quis quam adipisci neque!</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+            <div class="col">
+                <img src="images/event2.jpg" alt="" class="event2">
+                <h3>Hiking with Buddies</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis odit deserunt beatae fugiat
+                    dolor porro quaerat quis quam adipisci neque!</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Events Section Ends -->
+
+
+    <!-- Explore Section Starts  -->
+    <section class="explore">
+        <div class="explore_content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptatibus aliquid quisquam
+                soluta
+                explicabo dolore totam asperiores qui quos obcaecati voluptas voluptates, libero possimus recusandae
+                aliquam
+                ipsa minus facilis hic vitae dolorem, accusamus a dolor. Vitae voluptatem reprehenderit voluptatum
+                deleniti.
+            </p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+
+    </section>
+    <!-- Explore section ends  -->
+
+
+    <!-- Tours Section starts -->
+    <section class="tours">
+        <div class="row">
+            <div class="col content_col">
+                <h1>UPCOMING <br>TOURS AND ADVENTURES</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio harum quibusdam labore molestiae
+                    corrupti, eligendi asperiores debitis repellat saepe distinctio iure culpa, ratione dolore numquam
+                    sapiente! Unde minus nam temporibus aliquam molestias ratione expedita quis animi aperiam! Itaque,
+                    fuga quia?</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="image_col">
+                <div class="image_gallery">
+                    <img src="images/img1.jpg" alt="">
+                    <img src="images/img2.jpg" alt="">
+                    <img src="images/img3.jpg" alt="">
+                    <img src="images/img4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Tours Section ends -->
+
+
+    <!-- Footer Section Starts -->
+    <section class="footer">
+        <p class="p1">TermsFeed © 2012 - 2022</p>
+        <p>Privacy Policy  Cookies Policy - Terms of Use</p>
+        <p class="p2">Disclaimer: Legal information is not legal advice, read the disclaimer. The information provided on this site is not legal advice, does not constitute a lawyer referral service, and no attorney-client or confidential relationship is or will be formed by use of the site.</p>
+        <p class="p3">Sold and fulfilled by FastSpring - an authorized reseller. Bright Market (dba FastSpring), 801 Garden St., Santa Barbara, CA 93101, is the authorized reseller of our products and services on TermsFeed.com</p>
+    </section>
+    <!-- Footer Section Ends -->
+
+    <!-- JS for mobile navigation menu  -->
+    <script>
+        const menuBtn = document.querySelector('.menu_btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    <!-- JS for mobile navigation menu ends      -->
+</body>
+
+</html>

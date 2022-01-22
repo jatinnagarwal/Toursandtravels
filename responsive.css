@@ -1,0 +1,218 @@
+/* Media Queries for mobile device starts */
+
+@media only screen and (max-width:850px){
+    .navbar {
+        padding: 0;
+    
+    }
+    .logo {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    .nav-links {
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        justify-content: center;
+        background-color: rgb(153, 93, 105);
+        border-bottom-right-radius: 30%;
+        margin-top: -1325px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .mobile-menu {
+        margin-top: 0px;
+    }
+
+    .nav-links li {
+        margin: 30px auto;
+    }
+    .menu_btn {
+        display: block;
+        height: 8vh;
+        width: 8vh;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        cursor: pointer;
+    }
+
+    /* Events */
+    .row {
+        flex-direction: column;
+    }
+
+    .events .row .col img {
+        width: 50vh;
+        height: 30vh;
+        border-radius: 5%;
+    }
+
+    .events .col p {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+    }
+    /* Events */
+
+    /* Explore */
+    .explore_content {
+        width: 100%;
+        padding: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .explore_content .line {
+        text-align: center;
+        margin-left: auto;
+    }
+
+    .explore_content .btn {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: crimson;
+        margin-top: 20px;
+        padding: 10px 5px;
+        border-radius: 20px;
+        color: whitesmoke;
+        font-size: 2.1vmin;
+    }
+    /* Explore */
+
+    /* Tours */
+    .content_col h1 {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 7vmin;
+            text-align: center;
+            width: 100%;
+            margin-left: auto;
+    }
+
+    .content_col .line {
+        width: 50%;
+        height: 0.7vmin;
+        margin-left: auto;
+        margin-bottom: 30px;
+    }
+
+    .content_col p {
+        margin-left: auto;
+        width: 100%;
+        font-size: 3vmin;
+        font-family: 'Fuzzy Bubbles', cursive;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .image_gallery {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .tours .row .image_gallery img {
+        width: 25vh;
+        height: 25vh;
+        margin: 10px;
+        /* padding: 5px; */
+        border-radius: 3%;
+        box-shadow: 0px 0px 10px 5px darkgrey;
+    }
+    /* Tours */
+}
+
+@media only screen and (max-width:700px) {
+    .events .row .col img {
+        width: 45vh;
+        height: 25vh;
+        border-radius: 5%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .events .row .col img {
+        width: 40vh;
+        height: 20vh;
+        border-radius: 5%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .events .row .col img {
+        width: 35vh;
+        height: 15vh;
+        border-radius: 5%;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .events .row .col img {
+        width: 27vh;
+        height: 10vh;
+        border-radius: 5%;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .events .row .col img {
+        width: 20vh;
+        height: 10vh;
+        border-radius: 5%;
+    }
+}
+
+
+@media only screen and (max-width:550px) {
+    /* Tours */
+    .tours .row .image_gallery img {
+        width: 20vh;
+        height: 20vh;
+        margin: 10px;
+        border-radius: 3%;
+        box-shadow: 0px 0px 10px 5px darkgrey;
+    }
+    /* Tours */
+}
+
+
+@media only screen and (max-width:490px) {
+    /* Events */
+    .row .col img {
+        width: 40vh;
+        height: 22vh;
+        border-radius: 5%;
+    }
+    /* Events */
+}
+
+@media only screen and (max-width:470px) {
+    /* Tours */
+    .tours .row .image_gallery img {
+        width: 15vh;
+        height: 15vh;
+        margin: 10px;
+        /* padding: 5px; */
+        border-radius: 3%;
+        box-shadow: 0px 0px 10px 5px darkgrey;
+    }
+    /* Tours */
+}
+@media only screen and (max-width:350px) {
+    /* Tours */
+    .tours .row .image_gallery img {
+        width: 10vh;
+        height: 10vh;
+        margin: 10px;
+        /* padding: 5px; */
+        border-radius: 3%;
+        box-shadow: 0px 0px 10px 5px darkgrey;
+    }
+    /* Tours */
+}
+/* Events */
+
+/* Media Queries for mobile device ends */
